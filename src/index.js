@@ -1,33 +1,43 @@
+
+import ReactDom from  'react-dom'
 import React from 'react'
-import ReactDom from 'react-dom'
-// const currDate=new Date()
-// const h=currDate.getHours()
-// const m=currDate.getMinutes()
-// const s=currDate.getSeconds()
-// const time=h+":"+m+":"+s
 
-// const dt=currDate.getDate()
-// const mt=currDate.getMonth()
-// const yr=currDate.getFullYear()
+const name = prompt("Enter the name")
+const age = prompt("Enter the age")
 
-// 
+const currDate=new Date()
+
+const dt=currDate.getDate()
+const mt=currDate.getMonth()
+const yr=currDate.getFullYear()
+
+const date=dt+"/"+mt+"/"+yr
+
 let result=""
-const marks=prompt("enter marks here ")
-if(marks<=35){
-    result="Failed"
+
+if (age<18){
+  result="Not eligible to Drive"
+}else{
+  result= name+" is eligible to Drive"
 }
-else{
-    result="passed"
-}
+
 ReactDom.render(
-
-<>
-    <h1>welcome to react js</h1>
-    <h3>{result}</h3>
-</>,
-    
-  
-   
-    document.getElementById('root')
-
+  <>
+  <h1>DRIVER'S LICENSE</h1>
+  <table border="1px" cellSpacing={1}>
+    <tr>
+      <th>Date</th>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Results</th>
+    </tr>
+    <tr>
+      <td>{date}</td>
+      <td>{name}</td>
+      <td>{age}</td>
+      <td>{result}</td>
+    </tr>
+  </table>
+  </>,
+  document.getElementById('root')
 )

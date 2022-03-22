@@ -1,13 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  background-color: black;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+h2{
+  color:rgb(9, 173, 22);
+  background-color: black;
+}
+.para{
+  color:red;
+  font-family: arial;
+  font-size: 1.3rem;
+  text-align: justify;
 }

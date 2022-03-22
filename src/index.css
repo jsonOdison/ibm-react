@@ -1,16 +1,23 @@
 h1{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: white;
-  background-color: black;
-
+  color: rgb(245, 245, 245);
+  background-color: rgba(8, 182, 167, 0.753);
+  text-align: center;
 }
 h2{
-  color:rgb(9, 173, 22);
-  background-color: black;
+  color:rgb(243, 253, 244);
+  background-color: rgb(59, 98, 206);
+  text-align: center;
 }
 .para{
   color:red;
   font-family: arial;
   font-size: 1.3rem;
   text-align: justify;
+}
+ul{
+  color: rgb(197, 114, 12);
+  list-style-type: none;
+  line-height: 55px;
+  font-size: 40px;
 }

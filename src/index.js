@@ -18,7 +18,7 @@ let result=""
 if (age<18){
   result="Not eligible to Drive"
 }else{
-  result= name+" is eligible to Drive"
+  result= name+"  eligible to Drive"
 }
 
 ReactDom.render(

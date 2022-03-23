@@ -3,11 +3,15 @@ h1{
   color: rgb(245, 245, 245);
   background-color: rgba(8, 182, 167, 0.753);
   text-align: center;
+  letter-spacing: 7px;
+
 }
 h2{
   color:rgb(243, 253, 244);
-  background-color: rgb(59, 98, 206);
+  background-color: rgb(68, 182, 53);
   text-align: center;
+  letter-spacing: 5px;
+
 }
 .para{
   color:red;

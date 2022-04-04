@@ -1,25 +1,10 @@
-
-import ReactDom from  'react-dom'
+import ReactDom from  'react-dom';
 import React from 'react'
-import course from './App'
-ReactDom.render(<>
-  <h2>Calling components named values</h2>
-  <ul>
-    <li>oracle</li>
-    <li>Java</li>
-    <li>{course}</li>
-  </ul>
-  </>,
-  document.getElementById('root')
-
-
-
-
-
-
-
-
-
-
-
-)
+class Test extends React.Component{
+  render(){
+    return <h1>Class components</h1>
+  }
+}
+ReactDom.render(
+  <Test/>,
+  document.getElementById('root'))

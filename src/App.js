@@ -1,12 +1,22 @@
-const course='ReactJs'
-const topic='named value'
-function myName(){
-  let fname ='ramesh'
-  return fname
+import './App.css';
+const data=[
+  {name:'Suresh',age:22,gender:"Male",place:'Chennai'}
+]
+function App(){
+  return(
+    <>
+      {data.map((val,key)=>{
+        return (
+          <ul>
+            <li>{val.name}</li>
+            <li>{val.age}</li>
+            <li>{val.place}</li>
+            <li>{val.gender}</li>
+          </ul>
+        )
+      })}
+        </>
+  )
 }
-function myName2(){
-  let lname ='suresh'
-  return lname
-}
-export default course;
-export {topic,myName,myName2};
+
+export default App;
